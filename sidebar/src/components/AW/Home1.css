@@ -1,0 +1,48 @@
+.sdfggfd {
+  height: 600px;
+  background-color: #6407dd; /* Initial background color */
+  position: relative;
+  animation: changeColor 10s infinite; /* Animation name, duration, and repetition */
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #097205; /* Initial background color */
+  }
+  50% {
+    background-color: #09d4db; /* Change background color midway */
+  }
+  100% {
+    background-color: #a8e20a; /* Back to initial background color */
+  }
+}
+
+
+   
+   .h{
+    background-color:white;
+    height: 620px;
+    width: 1350px;
+   }
+    
+ .hk{
+    
+     
+        /* background-image: url(D:\Voting\Voting\public\download.jpeg) !important ; */
+        
+       
+        
+          
+            /* Set the background size to cover the entire element */
+            background-size: cover;
+          
+            /* Set the background repeat to no-repeat */
+            background-repeat: no-repeat;
+          
+            /* Set the width and height of the element */
+            width: 1200px; /* Adjust width as needed */
+            height: 600px; /* Adjust height as needed */
+            transform: scale(1); 
+} 
+ 
+

@@ -1,0 +1,87 @@
+.abc h1 {
+    text-align: center;
+    color: #252729;
+    /* color: green; */
+    /* background-color: #007bff; */
+    text-align: center;
+  }
+  .PostBox {
+    margin: 20px;
+    height: 100vh;
+    box-sizing: 80vh;
+    width: 800px;
+    margin-left: 300px;
+    position: fixed;
+    border: 4px solid rgb(250, 246, 246);
+    
+  }
+  
+  .card {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    height: 8%;
+    background-color: palegoldenrod;
+    margin-top: 0%;
+    text-align: center;
+  }
+  
+  .postbox {
+    border: 1px solid red;
+    padding: 10px;
+    height: 90%;
+    overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+  }
+  
+  .post {
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post img {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .PostBar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .PostBar textarea {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .PostBar input[type="file"] {
+    margin-left: 10px;
+  }
+  
+  .PostBar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .PostBar button:hover {
+    background-color: #0056b3;
+  }
